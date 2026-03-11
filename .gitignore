@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Huggingface cache
+.cache/
+huggingface/
+
+# Vector database
+data/faiss_index/
+data/faiss_docstore.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore raw document datasets
+data/raw_docs/
+
+# Ignore vector index
+data/faiss_index/
+data/faiss_docstore.pkl

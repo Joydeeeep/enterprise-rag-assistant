@@ -1,0 +1,32 @@
+# Enterprise RAG Assistant - Configuration
+# Avoid hardcoded parameters; all tunable values live here.
+
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  # Dimension for all-MiniLM-L6-v2 is 384
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 100
+  separators:
+    - "\n\n"
+    - "\n"
+    - " "
+    - ""
+
+retrieval:
+  top_k: 5
+
+llm:
+  # Use one of: mistralai/Mistral-7B-Instruct-v0.2, meta-llama/Llama-3-8B-Instruct
+  model_name: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  max_new_tokens: 120
+  temperature: 0.3
+  do_sample: true
+
+vectorstore:
+  index_path: data/faiss_index
+  docstore_path: data/faiss_docstore.pkl
+
+paths:
+  raw_docs: data/raw_docs
