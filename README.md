@@ -144,11 +144,11 @@ streamlit run ui/streamlit_app.py
 
 Edit `configs/config.yaml` to change:
 
-- **embedding.model** – SentenceTransformers model
+- **embedding.model** : SentenceTransformers model
 - **chunking.chunk_size** / **chunk_overlap**
 - **retrieval.top_k**
-- **llm.model_name** – e.g. `mistralai/Mistral-7B-Instruct-v0.2` or `meta-llama/Llama-3-8B-Instruct`
-- **vectorstore** / **paths** – index and raw docs locations
+- **llm.model_name**: e.g. `mistralai/Mistral-7B-Instruct-v0.2` or `meta-llama/Llama-3-8B-Instruct`
+- **vectorstore** / **paths**: index and raw docs locations
 
 ---
 
