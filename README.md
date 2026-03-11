@@ -13,7 +13,7 @@ The system:
 - **Embeds** chunks using SentenceTransformers (`all-MiniLM-L6-v2`)
 - **Stores** embeddings in a FAISS vector index
 - **Retrieves** relevant context for each user query
-- **Generates** answers using an open-source LLM (Mistral or Llama)
+- **Generates** answers using an open source LLM (Mistral or Llama)
 - **Exposes** a FastAPI backend and a Streamlit chat UI
 
 ---
