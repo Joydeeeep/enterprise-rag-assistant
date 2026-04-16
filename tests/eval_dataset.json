@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "query": "How do I run a Docker container?",
+    "expected_docs": ["run.md"]
+  },
+  {
+    "id": 2,
+    "query": "How can I start a container using docker run?",
+    "expected_docs": ["run.md"]
+  },
+  {
+    "id": 3,
+    "query": "docker run command explanation",
+    "expected_docs": ["run.md"]
+  },
+  {
+    "id": 4,
+    "query": "How do I build a Docker image?",
+    "expected_docs": ["build"]
+  },
+  {
+    "id": 5,
+    "query": "Steps to create an image using Dockerfile",
+    "expected_docs": ["build"]
+  },
+  {
+    "id": 6,
+    "query": "What is docker build command?",
+    "expected_docs": ["build"]
+  },
+  {
+    "id": 7,
+    "query": "What is a Docker container?",
+    "expected_docs": ["container"]
+  },
+  {
+    "id": 8,
+    "query": "Explain how containers work in Docker",
+    "expected_docs": ["container"]
+  },
+  {
+    "id": 9,
+    "query": "How does Docker isolate processes?",
+    "expected_docs": ["container"]
+  },
+  {
+    "id": 10,
+    "query": "What is Docker networking?",
+    "expected_docs": ["network"]
+  },
+  {
+    "id": 11,
+    "query": "How do containers communicate in Docker?",
+    "expected_docs": ["network"]
+  },
+  {
+    "id": 12,
+    "query": "Explain Docker network concepts",
+    "expected_docs": ["network"]
+  },
+  {
+    "id": 13,
+    "query": "How do I expose ports in Docker?",
+    "expected_docs": ["run", "network"]
+  },
+  {
+    "id": 14,
+    "query": "What does -p flag do in docker run?",
+    "expected_docs": ["run"]
+  },
+  {
+    "id": 15,
+    "query": "How to run a container in detached mode?",
+    "expected_docs": ["run"]
+  },
+  {
+    "id": 16,
+    "query": "docker run container background mode",
+    "expected_docs": ["run"]
+  },
+  {
+    "id": 17,
+    "query": "How do I persist data in Docker?",
+    "expected_docs": ["volume"]
+  },
+  {
+    "id": 18,
+    "query": "What are Docker volumes?",
+    "expected_docs": ["volume"]
+  },
+  {
+    "id": 19,
+    "query": "How to store container data permanently?",
+    "expected_docs": ["volume"]
+  },
+  {
+    "id": 20,
+    "query": "How to deploy Kubernetes cluster?",
+    "expected_docs": []
+  }
+]
