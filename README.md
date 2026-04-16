@@ -13,7 +13,7 @@ The system:
 - **Embeds** chunks using SentenceTransformers (`all-MiniLM-L6-v2`)
 - **Stores** embeddings in a FAISS vector index
 - **Retrieves** relevant context for each user query
-- **Generates** answers using an open-source LLM (Mistral or Llama)
+- **Generates** answers using an open source LLM (Mistral or Llama)
 - **Exposes** a FastAPI backend and a Streamlit chat UI
 
 ---
@@ -144,11 +144,11 @@ streamlit run ui/streamlit_app.py
 
 Edit `configs/config.yaml` to change:
 
-- **embedding.model** – SentenceTransformers model
+- **embedding.model** : SentenceTransformers model
 - **chunking.chunk_size** / **chunk_overlap**
 - **retrieval.top_k**
-- **llm.model_name** – e.g. `mistralai/Mistral-7B-Instruct-v0.2` or `meta-llama/Llama-3-8B-Instruct`
-- **vectorstore** / **paths** – index and raw docs locations
+- **llm.model_name**: e.g. `mistralai/Mistral-7B-Instruct-v0.2` or `meta-llama/Llama-3-8B-Instruct`
+- **vectorstore** / **paths**: index and raw docs locations
 
 ---
 
